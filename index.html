@@ -1,10 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Niti Singhal">
+  <meta name="description" content="Full stack developer">
   <title>Niti Singhal</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
+  <link rel="shortcut icon" type="image/ico" href="/image/uni-fav.ico" />
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="https://lokeshdhakar.com/projects/lightbox2/css/lightbox.css">  
 </head>
-<body>
 
+<body>
+  <header class='mb-auto'>
+    <nav class="container navbar navbar-expand-md navbar-light">
+      <a href="#" class='unicorn'>🦄</a>
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a href='/' class='nav-link'>Home</a>
+        </li>
+        <li class="nav-item">
+          <a href='#projects' class='nav-link'>Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href='#apps' class='nav-link'>Apps</a>
+        </li>
+        <li class='nav-item'>
+          <a href='#about' class='nav-link'>About</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class='section-info vh100'>
+      <div class="row">
+        <div class="col">
+          <img src="https://media.licdn.com/dms/image/C5603AQEZY6AGSrKfsw/profile-displayphoto-shrink_200_200/0?e=1542844800&v=beta&t=mxCEiYgAcOT2Gn7Kjz5Ub8QJl0-_lQrSGMYSGRl4J3c" class="circular mx-auto d-block" alt='profile'>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center title-details">
+          <h2>Niti Singhal</h2>
+          <h5>ReactJS, NodeJS &amp; MongoDB</h5>
+          <div class='quote'>web apps, bootstrap, python, django, heroku</div>
+
+          <div class='social'>
+            <a target='_blank' href='https://github.com/nsinghal12/web-learnings'><i class='fa fa-pencil'></i> writings</a>
+            <a target='_blank' href='https://github.com/nsinghal12'><i class='fa fa-github'></i> code</a>
+            <a target='_blank' href='https://linkedin.com/in/niti-singhal'><i class='fa fa-linkedin-square'></i> resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id='projects' class='section-projects vcenter vh100'>
+      <div class='row p24'>
+        <div class='col'></div>
+        <div class='col'>
+          <h2>Latest Repositories</h2>
+        </div>
+        <div class='col'></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img id="unicorn-icon" src="image/unicorn.svg" width="100" height="100">
+          <div class='mystuff'>Browse through the projects and app developed by me.</div>
+        </div>
+        <div class="col">
+          <div class='project'>
+            <h4>
+              <a href="https://github.com/nsinghal12/minutes">minutes</a>
+              <span class="badge badge-warning">ReactJS</span>
+              <span class="badge badge-warning">Redux</span>
+              <span class="badge badge-warning">NodeJS</span>
+              <span class="badge badge-warning">MongoDB</span>
+            </h4>
+            <p>Online application to track meeting notes for scheduled meetings, track various action items and
+              help teams self-organize</p>
+          </div>
+          <div class='project'>
+            <h4>
+              <a href="https://github.com/nsinghal12/my-personal-space">My Personal Space</a>
+              <span class="badge badge-warning">Javascript</span>
+            </h4>
+            <p>Personal dashboard site featuring custom news, weather, todo, and stock tickers</p>
+          </div>
+          <div class='project'>
+            <h4>
+              <a href="https://github.com/nsinghal12/web-learnings">Web Learnings</a>
+              <span class="badge badge-warning">ReactJS</span>
+            </h4>
+            <p>Code snippets and notes of my learnings building various React applications</p>
+          </div>
+        </div>
+        <div class='col'>
+          <div class='project'>
+            <h4>
+              <a href="https://github.com/nsinghal12/Project-Wayfarer">Wayfarer</a>
+              <span class="badge badge-warning">ReactJS</span>
+              <span class="badge badge-warning">NodeJS</span>
+              <span class="badge badge-warning">MongoDB</span>
+            </h4>
+            <p>TripAdvisor style application to post vacation trip memories.</p>
+          </div>
+          <div class='project'>
+            <h4>
+              <a href="https://github.com/nsinghal12/Meatup">Meat Up</a>
+              <span class="badge badge-warning">Python</span>
+              <span class="badge badge-warning">django</span>
+              <span class="badge badge-warning">PostgreSQL</span>
+            </h4>
+            <p>Simple application to allow people to host events, meetings and discussions over lunch</p>
+          </div>          
+        </div>
+      </div>
+    </section>
+    <section id='apps'>
+      <div class='row'>
+        <div class='col text-center'>
+          <h2>Applications</h2>
+        </div>
+      </div>
+      <div class='section-apps'>
+        <div class='row'>
+          <div class='col'>
+            <div class="card">
+              <a href='/image/minutes.png' data-lightbox='projects'>
+                <img class="card-img-top" id="minutes" src="/image/minutes.png" >
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Meeting Minutes</h5>
+                <p class="card-text">Schedule meetings and take notes.</p>
+                <a href="https://minutes.herokuapp.com" class="btn btn-primary" target="_blank">Launch</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <a href='/image/meatup.png' data-lightbox='projects'>
+                <img class="card-img-top" src="/image/meatup.png">
+              </a>  
+              <div class="card-body">
+                <h5 class="card-title">Meatup</h5>
+                <p class="card-text">App to host events for meet and eat together.</p>
+                <a href="#" class="btn btn-primary" target="_blank">Launch</a>
+              </div>
+            </div>
+      
+          </div>
+          <div class='col'>
+            <div class="card">
+              <a href='/image/wayfarer.png' data-lightbox='projects'>
+                <img class="card-img-top" id="wayfarer" src="/image/wayfarer.png">
+              </a>
+              <div class="card-body">
+                <h5 class="card-title">Project Wayfarer</h5>
+                <p class="card-text">TripAdvisor style travel application.</p>
+                <a href="https://wayfarer-web.herokuapp.com" class="btn btn-primary" target="_blank">Launch</a>
+              </div>
+            </div>
+
+            <div class="card">
+              <a href='/image/jobsearch.png' data-lightbox='projects'>
+                <img class="card-img-top" src="/image/jobsearch.png">
+              </a>  
+              <div class="card-body">
+                <h5 class="card-title">Jobsearch</h5>
+                <p class="card-text">Job search front-end using ReactJS.</p>
+                <a href="https://nsinghal12.github.io/jobsearch" class="btn btn-primary" target="_blank">Launch</a>
+              </div>
+            </div>
+        
+          </div>
+          <div class='col'>
+            <div class="card">
+              <a href='/image/personal-space.png' data-lightbox='projects'>
+                <img class="card-img-top" id="personal-space" src="/image/personal-space.png">
+              </a> 
+              <div class="card-body">
+                <h5 class="card-title">Personal Space</h5>
+                <p class="card-text">Your own personal dashboard including news, stock prices, weather and horoscope.</p>
+                <a href="https://mypersonalspace-niti.herokuapp.com/" class="btn btn-primary" target="_blank">Launch</a>
+              </div>
+            </div>
+        
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </section>
+
+    <section id='about' class='section-about vcenter vh100'>
+      <div class='row'>
+        <div class='col'></div>
+        <div class='col personal'>
+          <div class='name-me'>
+            niti singhal
+          </div>
+          <div class='about-me'>
+            Full-stack web developer based in the San Francisco bay area with hands-on experience in ReactJS, Redux, NodeJS, Python, Django, Bootstrap, ExpressJS, Mongoose, PostgreSQL and MongoDB.
+          </div>
+          <div class='about-me'>
+              Have prior 10 years experience in professional mainframe development in maintaining and enhancing applications using Cobol, JCL, DB2. Have strong understanding of insurance domain with LOMA 280 certification and strong hands-on skills in Vantage One/wmA.
+          </div>
+        </div>
+        <div class='col'></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Copyright &copy; 2018, Niti Singhal.
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://lokeshdhakar.com/projects/lightbox2/js/lightbox-plus-jquery.min.js"></script>
 </body>
+
 </html>
