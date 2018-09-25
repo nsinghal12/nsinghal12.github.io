@@ -27,6 +27,12 @@ section {
 .section-projects, .section-about {
     background-color: #f7f7f8;
 }
+.hello img {
+    margin-bottom: 12px;
+}
+.my-email {
+    margin-left: 8px;
+}
 .card {
     width: 250px;
     margin: 0 auto;
