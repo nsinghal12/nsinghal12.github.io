@@ -1,0 +1,11 @@
+# www.robotstxt.org
+# Allow crawling of all content
+
+User-agent: *
+Disallow:
+
+# Block ChatGPT from crawling this site
+User-agent: GPTBot
+Disallow: /
+
+Sitemap: https://nitisinghal.com/sitemap.xml
