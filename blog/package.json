@@ -1,0 +1,16 @@
+{
+    "name": "@nitisinghal/blog",
+    "description": "Blog engine that powers nitisinghal.com",
+    "type": "module",
+    "src": "engine.js",
+    "main": "engine.js",
+    "dependencies": {
+        "yaml-front-matter": "^4.1.1",
+        "showdown": "^2.1.0",
+        "jsdom": "^22.1.0",
+        "node-summary": "^1.2.0"
+    },
+    "scripts": {
+        "start": "node engine.js"
+    }
+}
